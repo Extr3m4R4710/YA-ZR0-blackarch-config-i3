@@ -307,7 +307,8 @@ bar {
         statusline  $xforeground
 
         #Where              #Border         #Background     #Text
-        focused_workspace   $xbackground    $xcolor6        $xbackground
+        focused_workspace   $xcolor1        $xcolor6        $xbackground
+        #focused_workspace   $xbackground    $xcolor6        $xbackground
         #focused_workspace   $xbackground    $xcolor6        $xforeground
         #urgent_workspace   $xbackground    $xcolor9        $xbackground
         urgent_workspace    $xbackground    $xcolor6        $xforeground
